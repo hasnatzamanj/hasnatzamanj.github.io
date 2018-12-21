@@ -1,0 +1,52 @@
+*{margin:0;padding:0;}
+body{font-family:Arial;font-size:16px;background:#b5ee9a;}/*url(location) no repeat;*/
+.Allsec{width:960px;margin:25px auto;display:block;background:#dcf7fa;}
+header{}
+.head{width:960px;}
+.head h1{width:960;height:15px;}
+.head2{}
+
+
+.manu{Width:960px;background:#34a64e;min-height:44px;}
+.manu ul{list-style:none;margin:0px;padding:0px;}
+.manu ul li{position:relative;float:right;border-left: 1px solid #53d317;border-right: 1px solid #246605;margin-top:0px;transition:all 2s;}
+.manu ul li:hover{font-size:20px;}
+.manu ul li:first-child{border-left: 0px solid;}
+.manu ul li:last-child{border-right:0px solid;}
+.manu ul li a{text-decoration:none;background:#34a64e;padding:10px 25px;display:block;}
+.manu ul li a:hover{background:#829aa8;color:#0ddc3a;z-index:1000000;}
+.manu ul li ul{position:absolute;left:99999px;z-index:100000;}
+.manu ul li:hover ul{left:0px;}
+.manu ul li ul li{border-right:0px;border-left:0px;float:none;border-top:1px solid red;border-bottom:1px solid white;}
+.manu ul li ul li:hover{font-size:20px;}
+.manu ul li:first-child{}
+.manu ul li:last-child{border-bottom:0px solid;}
+.manu ul li ul li a{}
+.manu ul li ul li a:hover{background:#f1ec0a;color:#15eb13;}
+
+
+.slide{width:960px;overflow:hidden;}
+
+.maincontant{width:960px;overflow:hidden;}
+.Contant{width:600px;float:left;margin-left:10px; margin-top: 32px;background-image:url(../poto/walle.jpg)}
+.Contant h2{color:red;}
+.Contant p{font-family:SourceSansPro-It;}
+.sidebar{width:300px;margin-left:20px;margin-top: 32px;background:#56B2E9;overflow:hidden;float:right;}
+.sidebar ul{list-style:none;}
+.sidebar ul li{border-bottom: 1px solid #53d317;border-top: 1px solid #246605;}
+.sidebar ul li a{text-decoration:none;padding:15px;display:block;}
+.sidebar ul li a:hover{background:#829aa8;color:#0ddc3a;}
+
+
+blockquote{margin:20px;border-left:3px solid black;padding:0px 40px; background:green;box-shadow:6px 3px 12px 11px red;}
+
+
+footer{width:960px;overflow:hidden;background:red;}
+
+div#sticker {
+}
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:9999999;
+}
